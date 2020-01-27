@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Drinks2Door - Products</title>
+
+  <!-- Meta tags -->
+  <meta charset="utf-8" />
+  <!-- Auto Detect screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+
+  <!-- CSS stylesheet -->
+  <link href="style2.css" type="text/css" rel="stylesheet" />
+
+  <!-- Icons stylesheet -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- TOP NAV BAR -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-light bg-#eceff1 blue-grey lighten-5 navbar-expand-lg fixed-top">
+      <!-- SETS NAVBAR TO FILL SCREEN ON LARGE SCREEN, FIXED TO PAGE TOP -->
+      <a class="navbar-brand" href="index.php"><img class="d-inline-block align-top" src="images/Drinks2DoorLogo.jpg"
+          alt="The Drinks2Door Logo" title="The
+        Drinks2Door Logo" height="100px" />
+      </a>
+      <!-- CODE NEEDED FOR BOOTSTRAP TO RESIZE NAVBAR -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- COLLAPSE THE BELOW WITHIN MENU ICON ON SMALL SCREEN SIZE -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active" alt="Home button" title="Home button">
+            <a class="nav-link" href="index.php"> Home </a>
+          </li>
+          <li class="nav-item active" alt="Products button" title="Products button">
+            <a class="nav-link" href="products.html"> Products </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <!-- ACCOUNT ICON -->
+          <li class="nav-item active">
+            <a class="nav-link" href="account.html" alt="Account button" title="Account button"><span
+                class="fas fa-user-circle"></span>
+              Account
+            </a>
+          </li>
+          <!-- BASKET ICON -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#" alt="Basket button" title="Basket button"><span
+                class="fas fa-shopping-cart"></span> Basket
+            </a>
+          </li>
+          <li class="nav-item active">
+            <form action="./scripts/logout.php" method="post">
+              <button class="btn btn-danger" type="submit" id="logout">Logout</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar close -->
+
+  <div class="products">
+    <div class="container-fluid">
+      <nav class="navbar navbar-light bg-#eceff1 blue-grey lighten-5 navbar-expand-lg">
+        <div class="container">
+          <ul class="nav navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#beer">Beer & Cider</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#wine">Wine</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#gin">Gin</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#rum">Rum</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#vodka">Vodka</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#whiskey">Whiskey</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#softdrinks">Soft Drinks</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- PRODUCTS SECTION -->
+    <div class="product-items">
+      <!-- -->
+      <!-- Beers -->
+      <!-- -->
+      <div class="container">
+        <div class="container">
+          <h2 class="product-header" id="beer">Beer & Cider</h2>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="itembg">
+              <a href="#">
+                <img src="images/items/guinness.jpg" height="200" width="200" alt="" title="" /></a>
+              <div class="description">
+                <p class="item">Guinness - Original</p>
+                <p class="item-size">24 x 500ml Cans</p>
+                <p class="item-price">£34.45</p>
+                <a href="">
+                  <p> Add to Basket </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Beer 1 -->
+          <div class="col">
+            <div class="itembg">
+              <a href="#">
+                <img src="images/items/stella-artois.jpg" height="200" width="200" alt="" title="" /></a>
+              <div class="description">
+                <p class="item">Stella Artois</p>
+                <p class="item-size">24 x 500ml Cans</p>
+                <p class="item-price">£37.07</p>
+                <a href="">
+                  <p> Add to Basket </p>
+                </a>
+                <!-- Beer 2 -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="itembg">
+              <a href="#">
+                <img src="images/items/rekorderlig.jpg" height="200" width="200" alt="" title="" /></a>
+              <div class="description">
+                <p class="item">Rekorderlig - Strawberry and Lime</p>
+                <p class="item-size">12 x 330ml Cans</p>
+                <p class="item-price">£37.36</p>
+                <a href="">
+                  <p> Add to Basket </p>
+                </a>
+                <!-- Beer 3 -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- -->
+        <!-- Wines -->
+        <!-- -->
+        <div class="container">
+          <h2 class="product-header" id="wine">Wine</h2>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="itembg">
+              <a href="#">
+                <img src="images/items/mcguigancabernet.jpg" height="200" width="200" alt="" title="" /></a>
+              <div class="description">
+                <p class="item">McGuigan Reserve Cabernet</p>
+                <p class="item-size">75cl</p>
+                <p class="item-price">£7.00</p>
+                <a href="">
+                  <p> Add to Basket </p>
+                </a>
+                <!-- Wine 1 -->
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="itembg">
+              <a href="#">
+                <img src="images/items/brancottsauv.jpg" height="200" width="200" alt="" title="" /></a>
+              <div class="description">
+                <p class="item">Brancott Estate Sauvignon Blanc</p>
+                <p class="item-size">75cl</p>
+                <p class="item-price">£9.50</p>
+                <a href="">
+                  <p> Add to Basket </p>
+                </a>
+                <!-- Wine 2 -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <a href="#">
+              <div class="itembg">
+                <img src="images/items/barefoot.jpg" height="200" width="200" alt="" title="" />
+            </a>
+            <div class="description">
+              <p class="item">Barefoot Pink Moscato</p>
+              <p class="item-size">75cl</p>
+              <p class="item-price">£6.75</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Wine 3 -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -->
+      <!-- Gins -->
+      <!-- -->
+      <div class="container">
+        <h2 id="gin">Gin</h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/beefeaterpink.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Beefeater Pink Gin</p>
+              <p class="item-size">70cl</p>
+              <p class="item-price">£14.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Gin 1 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/gordons.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Gordon's Special Dry London Gin</p>
+              <p class="item-size">70cl</p>
+              <p class="item-price">£15.50</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Gin 2 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/tanquerey.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Tanqueray London Dry Gin</p>
+              <p class="item-size">1l</p>
+              <p class="item-price">£21.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Gin 3 -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -->
+      <!-- Rums -->
+      <!-- -->
+      <div class="container">
+        <h2 id="rum">Rum</h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/kraken.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">The Kraken Black Spiced Rum</p>
+              <p class="item-size">70cl</p>
+              <p class="item-price">£20.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Rum 1 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/darkmatter.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Dark Matter Spiced Rum</p>
+              <p class="item-size">70cl</p>
+              <p class="item-price">£29.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Rum 2 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/captainmorgan.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Captain Morgan Original Spiced Gold</p>
+              <p class="item-size">1l</p>
+              <p class="item-price">£22.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Rum 3 -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -->
+      <!-- Vodkas -->
+      <!-- -->
+      <div class="container">
+        <h2 id="vodka">Vodka</h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/smirnoff.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Smirnoff Red Label Vodka</p>
+              <p class="item-size">70cl</p>
+              <p class="item-price">£15.50</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Vodka 1 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/glens.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Glens Vodka</p>
+              <p class="item-size">1l</p>
+              <p class="item-price">£16.50</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Vodka 2 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/reyka.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Reyka Vodka</p>
+              <p class="item-size">70cl</p>
+              <p class="item-price">£28.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Vodka 3 -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -->
+      <!-- Whiskeys -->
+      <!-- -->
+      <div class="container">
+        <h2 id="whiskey">Whiskey</h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/johnniewalker.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Johnnie Walker Black Label 12 Year Old</p>
+              <p class="item-size">70cl</p>
+              <p class="item-price">£30.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Whiskey 1 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/balvenie.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">
+                The Balvenie 12 Year Old Doublewood Single Malt
+              </p>
+              <p class="item-size">70cl</p>
+              <p class="item-price">£39.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Whiskey 2 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/bowmore.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Bowmore 12 Year Old</p>
+              <p class="item-size">70cl</p>
+              <p class="item-price">£40.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Whiskey 3 -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -->
+      <!-- Soft Drinks -->
+      <!-- -->
+      <div class="container">
+        <h2 id="softdrinks" class="anchor">Soft Drinks</h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/irnbru.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Barrs Irn Bru</p>
+              <p class="item-size">8 x 330ml Cans</p>
+              <p class="item-price">£2.50</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Soft Drink 1 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/tango.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Tango Orange</p>
+              <p class="item-size">6 x 330ml Cans</p>
+              <p class="item-price">£3.19</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Soft Drink 2 -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="itembg">
+            <a href="#">
+              <img src="images/items/cokezero.jpg" height="200" width="200" alt="" title="" /></a>
+            <div class="description">
+              <p class="item">Coca-Cola Coke Zero</p>
+              <p class="item-size">24 x 330ml Cans</p>
+              <p class="item-price">£8.00</p>
+              <a href="">
+                <p> Add to Basket </p>
+              </a>
+              <!-- Soft Drink 3 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -->
+    <!-- End of Products -->
+    <!-- -->
+  </div>
+  </div>
+  </div>
+  <!-- FOOTER -->
+  <hr />
+  <footer class="pageFooter">
+    <p> Copyright @ Drinks2Door 2019</p>
+  </footer>
+
+  <!-- SCRIPTS FOR BOOTSTRAP -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

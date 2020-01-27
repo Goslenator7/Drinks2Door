@@ -1,0 +1,87 @@
+body {
+  /*padding-top: 130px;*/
+  background-image: url(images/barPhoto2.jpg);
+}
+
+.img-rounded {
+  border-bottom-right-radius: 5px;
+  height: 100px;
+}
+
+.navbar {
+  background-color: rgba(192, 192, 192, 0.5);
+}
+
+.navbar a {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+}
+
+.info {
+  text-align: center;
+  list-style: inside;
+  background-color: rgba(192, 192, 192, 0.6);
+  padding: 10px;
+}
+
+.info li {
+  font-size: 20px;
+}
+
+#jumbo {
+  background-color: rgba(192, 192, 192, 0.6);
+  color: rgb(0, 0, 0);
+  margin-top: 200px;
+}
+
+.products {
+  margin-top: 200px;
+  position: sticky;
+}
+
+.product-items {
+  background-color: rgba(192, 192, 192, 0.5);
+  height: 500px;
+  overflow: scroll;
+}
+
+h1,
+h2,
+h3,
+li {
+  color: rgb(0, 0, 0);
+}
+
+.itembg {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  border: solid rgba(110, 23, 163, 0.6) 2px;
+}
+
+.description {
+  border-top: solid rgba(110, 23, 163, 0.6) 4px;
+  padding: 10px;
+}
+
+.register {
+  margin-top: 200px;
+  background-color: rgba(192, 192, 192, 0.6);
+}
+
+.login {
+  margin-top: 200px;
+  background-color: rgba(192, 192, 192, 0.6);
+}
+
+.contact h2 {
+  padding: 20px;
+}
+
+.contact-form {
+  padding: 20px;
+}
+
+textarea {
+  resize: vertical;
+}

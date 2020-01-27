@@ -1,0 +1,12 @@
+create table users2 (
+userID int NOT NULL AUTO_INCREMENT,
+firstName varchar(255) NOT NULL,
+lastName varchar(255) NOT NULL,
+email varchar(255) NOT NULL,
+address1 varcher(255) NOT NULL,
+postcode varchar(20) NOT NULL,
+password1 varchar(255) NOT NULL,
+password2 varchar(255) NOT NULL,
+PRIMARY KEY (userID)
+);
+
